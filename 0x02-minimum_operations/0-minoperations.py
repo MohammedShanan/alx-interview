@@ -30,6 +30,3 @@ def minOperations(n: int) -> int:
             current //= i
 
     return operations
-
-
-print(minOperations(12))
