@@ -28,5 +28,7 @@ def minOperations(n: int) -> int:
         while current % i == 0:
             operations += i
             current //= i
+        if current <= 1:
+            break
 
     return operations
