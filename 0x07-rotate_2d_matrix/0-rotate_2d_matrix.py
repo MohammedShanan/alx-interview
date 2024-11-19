@@ -7,7 +7,7 @@
 def rotate_2d_matrix(matrix):
     """Rotates an m by n 2D matrix in place"""
     n = len(matrix[0])
-    if type(matrix) != list:
+    if type(matrix) is list:
         return
     if n <= 0:
         return
